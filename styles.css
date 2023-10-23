@@ -1,0 +1,556 @@
+@import url();
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+}
+
+html{
+    background: white;
+    scroll-behavior: smooth;
+    scroll-padding-top: 70px;
+}
+
+body{
+  overflow-x: hidden ;
+}
+
+.header{
+    position: fixed;
+    display: flex;
+    top:0;
+    width: 100%;
+    background: white;
+    padding: 20px;
+    justify-content: space-around;
+    align-items: center;
+    height: 75px;
+    z-index: 1;
+}
+
+.listinha{
+    flex-direction: row;
+    justify-content: space-around;
+    display: flex;
+    width: 350px;
+    background: rgb(236, 80, 145);
+    border-radius: 5px;
+    height: 30px;
+    padding: 5px;
+    text-transform: uppercase;
+    cursor: pointer;
+    position: relative;
+
+}
+
+.logo > img {
+    width: 100%;
+    height: 100%;
+    max-width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 20px;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+
+li{
+    list-style: none;
+}
+
+.pricing{
+    background: white;
+    border: 1px solid rgb(236, 80, 145);;
+    margin: 5px;
+    height: 250px;
+    width: 300px;
+    
+}
+
+
+
+.pricing{
+   flex-direction: column;
+   display: flex;
+   text-align: center;
+   align-items: center;
+   border-radius: 5px;
+   height: 300px;
+   width: 100%/3;
+   margin:15px;
+
+}
+
+.produto{
+    font-size: 30px;
+    background: rgb(236, 80, 145);;
+    width: 100%;
+    height: 50px;
+    padding-top: 8px;
+}
+
+
+.pricing>ol>li{
+    list-style: none;
+    padding: 5px;
+}
+
+.pricing>button{
+    color:black;
+    border: none;
+    background: rgb(236, 80, 145);
+    width: 80%;
+    height: 10%;
+    padding: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+    border-radius: 5px;
+    margin-top: 25px;
+}
+
+.precinho{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+#formulario{
+    display: flex;
+    flex-direction: column;
+    margin-top: 150px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 200px;
+    justify-items: center;
+}
+::placeholder{
+    color: black;
+    text-align: center;
+}
+
+
+.icon>i{
+    color: rgb(236, 80, 145);
+    background: transparent;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left:120px;
+    margin-right: 20px;
+    padding-top: 35px;
+}
+
+#differential{
+    margin-top: 100px;
+}
+
+.agrup{
+    display: flex;
+}
+
+.desc{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    width: 80vw;
+    padding: 5px;
+}
+
+.desc>h2{
+    font-size: 30px;
+}
+
+#job{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+
+iframe{
+    display: flex;
+    border: 5px solid rgb(236, 80, 145);
+    width: 600px;
+    height: 400px;
+}
+
+footer{
+    margin-top: 50px;
+    background: rgb(236, 80, 145);
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 5vh;
+    align-items: center;
+}
+
+
+.itens>ol>li{
+    display: inline-block;
+    padding-left: 20px;
+    font-size: 20px;
+}
+
+footer>span{
+    padding-right: 10px;
+    padding-left: 20px;
+    font-size: 20px;
+    color: white;
+}
+
+i{
+    font-size: 25px;
+    align-items: center;
+    justify-content: center;
+    justify-items: content;
+}
+
+a{
+  color: white;
+}
+
+.submit-inp{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+@import 'https://fonts.googleapis.com/css?family=Lato:400,700';
+
+@media (max-width: 600px) {
+    header {
+      
+    }
+  }
+
+  @media (max-width: 650px) {
+    .logo {
+      margin-top: 15px;
+      width: 100%;
+      position: relative;
+    }
+  }
+
+  @media (max-width: 650px) {
+    .logo > img {
+      margin: 0 auto;
+    }
+  }
+
+  
+  @media (max-width: 650px) {
+    nav {
+      margin-top: 10px;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      padding: 0 50px;
+    }
+    nav li {
+      padding-bottom: 5px;
+      
+    }
+  }
+  
+  @media (max-width: 650px) {
+    nav > ul {
+      flex-direction: column;
+      
+    }
+  }
+
+  @media (max-width: 650px) {
+    #formulario {
+      margin-top: 120px;
+    }
+  }
+
+  @media (max-width: 550px) {
+    #differential .icon {
+      display: none;
+    }
+  }
+
+  @media (max-width: 550px) {
+    #differential .desc {
+      width: 100%;
+      text-align: center;
+      padding: 0;
+      height: 150px;
+      margin-bottom: 30px;
+      margin-top: 30px;
+    }
+  }
+  
+  @media (max-width: 650px) {
+    #differential {
+      margin-top: 100px;
+    }
+  }
+
+  @media (max-width: 800px) {
+    #pricing {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+
+  @media (max-width: 1279px) {
+    #job>.quadros {
+      justify-content: center;
+      flex-wrap: wrap;
+      align-items:center;
+
+    }
+  }
+
+  .quadros{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    justify-items: center;
+    width: 80%;
+    
+  }
+
+  .quadros>img{
+    display: flex;
+    width: 100%;
+    margin-right: 10px;
+    max-width: 250px;
+    height: 300px;
+    object-fit:cover;
+    border-radius: 10px;
+    border: 3px solid rgb(236, 80, 145);
+    margin-top: 5px;
+  }
+
+
+
+
+  .input-box label{
+    position: absolute;
+    top: 50%;
+    left:0;
+    transform: translateY(-50%);
+    transition: .5s ease;
+}
+
+.input-box input:focus~label,
+.input-box input:valid~label {
+    top: -5px;
+}
+
+
+
+
+  h3{
+    margin-bottom: 15px;
+  }
+
+
+
+  .nav-bar li:hover{
+    transition: .5s ease;
+}
+
+.nav-bar li:hover{
+    transform: scale(1.3);
+}
+
+li{
+  position: relative;
+  padding-top: 5px;
+}
+
+.icon:hover{
+  transform: scale(1.3);
+
+}
+
+.icon{
+  transition:  0.5s ease;
+}
+
+.btn:hover{
+  transform: scale(1.1);
+}
+
+.btn{
+  transition: 0.5s ease;
+}
+
+.btn:hover{
+  transform: scale(1.1);
+}
+
+.btn{
+  transition: 0.5s ease;
+}
+
+.itens>ol>li:hover{
+  transform: scale(1.1);
+}
+
+.itens>ol>li{
+  transition: 0.5s ease;
+}
+
+.form-box label{
+  position: absolute;
+  top: 50%;
+  left:0;
+  transform: translateY(-90%);
+  transition: .5s ease;
+}
+
+.form-box input:focus~label,
+.form-box input:valid~label {
+  top: 0px;
+}
+
+.form-text{
+  border-color: rgb(236, 80, 145);
+  text-decoration: none;
+  cursor: pointer;
+  outline: none;
+
+}
+
+.form{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  z-index:initial;
+}
+
+.form-box>input{
+  border-color: rgb(236, 80, 145);
+  width: 20vh;
+  height: 2vh;
+  border-radius: 2px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  outline: none;
+  z-index: 1;
+  background: transparent;
+}
+
+.form-box{
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  position: relative;
+  z-index: 0;
+}
+
+.form-box>span>i{
+  color: rgb(236, 80, 145);
+  text-align: left;
+}
+
+.form-box>label{
+  display: flex;
+  background: transparent;
+  align-items: baseline;
+  position: absolute;
+  padding-left: 30px;
+  padding-top: 3px;
+}
+
+.terms{
+  text-decoration: none;
+  color: rgb(236, 80, 145);
+}
+
+.terms:hover{
+  border-bottom: 1px solid rgb(236, 80, 145);
+}
+
+.form-checkbox{
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.form-btn{
+  flex-direction: row;
+  justify-content:space-between;
+  display: flex;
+}
+
+.form-btn>button{
+  cursor: pointer;
+  width: 10vh;
+  height:3vh;
+  border: none;
+  background: rgb(236, 80, 145);
+  justify-content: center;
+  text-align: center;
+  margin-right: 10px;
+  margin-left: 10px;
+  text-transform: uppercase;
+  border-radius: 5px;
+}
+
+.form-btn>button:hover{
+  transition: 0.2s ease;
+}
+
+.form-btn>button:hover{
+  transform: scale(1.1);
+}
+
+.quadros{
+  cursor: pointer;
+}
+
+.quadros>img:hover{
+  transition: 0.1s ease;
+  
+}
+
+.quadros>img:hover{
+  transform: scale(2);
+  
+}
+
+::-webkit-scrollbar{
+  width: 15px;
+
+}
+
+::-webkit-scrollbar-thumb{
+  background-color: rgb(236, 80, 145);
+}
+
